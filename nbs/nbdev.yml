@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "chrphb-quarto-util"
+  site-url: "https://chrphb.github.io/chrphb-quarto-util"
+  description: "Tools to work with Quarto"
+  repo-branch: main
+  repo-url: "https://github.com/chrphb/chrphb-quarto-util"
