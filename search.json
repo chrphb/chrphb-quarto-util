@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "Here, I provide automation for writing posts.\nI want to automatically set the right date in the template file.\nSo, instead of simply copying the file, I will read the content and write a new file, while replacing a string $DATE with the current date.\n\nsource\n\ncreate_post_from_template\n\n create_post_from_template (template_dir, posts_dir, title)\n\nCreates a new Post entry in the Journal The path of the post is based on the current date Automatically sets the date metadata\n\nsource\n\n\ngenerate_file_content\n\n generate_file_content (src, dst)\n\nGenerates the file content",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "chrphb_quarto_util",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "chrphb_quarto_util"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "chrphb_quarto_util",
+    "section": "Install",
+    "text": "Install\npip install chrphb_quarto_util",
+    "crumbs": [
+      "chrphb_quarto_util"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "chrphb_quarto_util",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\nfrom chrphb_quarto_util.core import create_post_from_template\n\n\n! mkdir /tmp/templates\n\n\n! mkdir /tmp/posts\n\n\n! touch /tmp/templates/index.ipynb\n\n\ncreate_post_from_template('/tmp/templates','/tmp/posts','test2')\n\n\n---------------------------------------------------------------------------\nNameError                                 Traceback (most recent call last)\nCell In[1], line 1\n----&gt; 1 create_post_from_template('/tmp/templates','/tmp/posts','test2')\n\nNameError: name 'create_post_from_template' is not defined\n\n\n\n\n! ls -lRt /tmp/posts\n\n/tmp/posts:\ntotal 4\ndrwxrwxr-x 2 chris chris 4096 juil. 30 23:40 2024-07-30-test\n\n/tmp/posts/2024-07-30-test:\ntotal 0\n-rw-rw-r-- 1 chris chris 0 juil. 30 23:40 index.ipynb",
+    "crumbs": [
+      "chrphb_quarto_util"
+    ]
+  }
+]
